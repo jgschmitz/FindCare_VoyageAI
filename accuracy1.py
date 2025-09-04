@@ -16,8 +16,8 @@ import argparse
 import re
 
 # ---------------- CONFIG (edit these two) ----------------
-MONGODB_URI   = "mongodb+srv://jschmitz:gcp2025@FindCare.tnhx6.mongodb.net/?retryWrites=true&w=majority"         # e.g., mongodb+srv://user:pass@cluster.xxxx.mongodb.net
-VOYAGE_API_KEY = "pa-7dduYV1BTZVrUAFXlQqmkAhFk90TWQcL4Cah5I7oh9H"
+MONGODB_URI   = ""         
+VOYAGE_API_KEY = ""
 DB, COLL, INDEX = "NUCC", "taxonomy251", "nucc"
 MODEL, DIM = "voyage-3.5", 1024
 NUM_CANDIDATES = 2000
