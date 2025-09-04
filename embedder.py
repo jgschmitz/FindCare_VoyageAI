@@ -18,11 +18,11 @@ import voyageai
 import re, html, sys
 
 # ---------- Hardcoded demo creds (as requested) ----------
-MONGODB_URI = "mongodb+srv://jschmitz:gcp2025@FindCare.tnhx6.mongodb.net/?retryWrites=true&w=majority"
+MONGODB_URI = ""
 DB_NAME     = "NUCC"
 COLL_NAME   = "taxonomy251"
 
-VOYAGE_API_KEY = "pa-7dduYV1BTZVrUAFXlQqmkAhFk90TWQcL4Cah5I7oh9H"
+VOYAGE_API_KEY = ""
 VOYAGE_MODEL   = "voyage-3.5"   # keep this in sync with your index
 EMBED_DIM      = 1024           # keep this in sync with your Atlas Vector Search index
 BATCH_SIZE     = 128
