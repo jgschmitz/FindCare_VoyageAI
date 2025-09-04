@@ -72,6 +72,7 @@ python3 clean_and_embed_presales.py
 ```
 python3 detailoverview.py "allergy immunology"
 ```
+```
 jefferyschmitz@M-KXQ9026J7V FindCare % python3 detailoverview.py
 Collections: ['taxonomy251']
 Search indexes: [{'name': 'nucc', 'type': 'vectorSearch'}]
