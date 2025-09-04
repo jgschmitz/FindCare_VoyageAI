@@ -53,7 +53,7 @@ db.taxonomy251.getSearchIndexes()
 
 Edit the scripts and set:
 
-MONGODB_URI = "<YOUR_ATLAS_SRV>"          # e.g., mongodb+srv://user:pass@cluster.xxxx.mongodb.net
+MONGODB_URI = "mongodb+srv://user:pass@cluster.xxxx.mongodb.net"
 DB, COLL, INDEX = "NUCC", "taxonomy251", "nucc"
 ```
 VOYAGE_API_KEY = "<YOUR_VOYAGE_KEY>"
