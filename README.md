@@ -18,16 +18,13 @@ Data lives in NUCC.taxonomy251 and each document has a 1024-dim embedding (Voyag
 
 Python 3.10+
 Packages:
-
+```
 pip install "pymongo[srv]" voyageai
-
-
+```
 Atlas cluster with Atlas Search (Vector Search) enabled.
-
 🧱 Create the Vector index (once)
 
 Run in mongosh:
-
 ```
 use NUCC
 db.taxonomy251.createSearchIndex({
@@ -62,7 +59,6 @@ MODEL, DIM = "voyage-3.5", 1024
 ```
 
 🔐 Keep real keys/URIs out of git. Add config_local.py to .gitignore if you prefer to import secrets.
-
 🚀 Quickstart
 
 1) (Optional) Backfill/clean embeddings
@@ -75,12 +71,14 @@ python3 clean_and_embed_presales.py
 python3 troubleshoot.py "allergy immunology"
 ```
 
-Expected output (example):
 
+Expected output (example):
+```
 Collections: ['taxonomy251']
 Search indexes: [{'name': 'nucc', 'type': 'vectorSearch'}]
 Vector length histogram: [{'_id': 1024, 'n': 883}]
 Query text: allergy immunology
 Results: 10
 01 | 0.827 | 207K00000X | Allergy & Immunology / None | Allergy & Immunology Physician
+```
 ...
