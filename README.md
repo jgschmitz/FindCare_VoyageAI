@@ -10,7 +10,7 @@ Fast, relevant specialty lookups with optional filters and slick demos. 🔎⚡�
 detailoverview.py — sanity checker + pretty top-K vector query (prints code/name/score).<br>
 vector_query.py — minimal function to query Atlas from Python.<br>
 clean_and_embed_presales.py — optional: clean HTML and (re)generate embeddings.<br>
-demo_queries_mongosh.md (optional) — copy-paste pipelines for mongosh demos.<br
+demo_queries_mongosh.md (optional) — copy-paste pipelines for mongosh demos.<br>
 
 Data lives in NUCC.taxonomy251 and each document has a 1024-dim embedding (Voyage voyage-3.5, cosine).
 
