@@ -70,15 +70,23 @@ python3 clean_and_embed_presales.py
 ```
 python3 troubleshoot.py "allergy immunology"
 ```
-
-
-Expected output (example):
-```
+jefferyschmitz@M-KXQ9026J7V FindCare % python3 detailoverview.py
 Collections: ['taxonomy251']
 Search indexes: [{'name': 'nucc', 'type': 'vectorSearch'}]
 Vector length histogram: [{'_id': 1024, 'n': 883}]
 Query text: allergy immunology
 Results: 10
 01 | 0.827 | 207K00000X | Allergy & Immunology / None | Allergy & Immunology Physician
+02 | 0.803 | 207KI0005X | Allergy & Immunology / Clinical & Laboratory Immunology | Clinical & Laboratory Immunology (Allergy & Immunology) Physician
+03 | 0.795 | 207KA0200X | Allergy & Immunology / Allergy | Allergy Physician
+04 | 0.793 | 2080P0201X | Pediatrics / Pediatric Allergy/Immunology | Pediatric Allergy/Immunology Physician
+05 | 0.787 | 207RA0201X | Internal Medicine / Allergy & Immunology | Allergy & Immunology (Internal Medicine) Physician
+06 | 0.769 | 207YX0602X | Otolaryngology / Otolaryngic Allergy | Otolaryngic Allergy Physician
+07 | 0.768 | 207NI0002X | Dermatology / Clinical & Laboratory Dermatological Immunology | Clinical & Laboratory Dermatological Immunology Physician
+08 | 0.762 | 2080I0007X | Pediatrics / Clinical & Laboratory Immunology | Pediatric Clinical & Laboratory Immunology Physician
+09 | 0.750 | 207RI0001X | Internal Medicine / Clinical & Laboratory Immunology | Clinical & Laboratory Immunology (Internal Medicine) Physician
+10 | 0.748 | 246QI0000X | Specialist/Technologist, Pathology / Immunology | Immunology Pathology Specialist/Technologist
 ```
+
+
 ...
