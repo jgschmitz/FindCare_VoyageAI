@@ -18,9 +18,11 @@ Data lives in NUCC.taxonomy251 and each document has a 1024-dim embedding (Voyag
 
 Python 3.10+
 Packages:
+
 ```
 pip install "pymongo[srv]" voyageai
 ```
+
 Atlas cluster with Atlas Search (Vector Search) enabled.
 🧱 Create the Vector index (once)
 
@@ -50,7 +52,7 @@ db.taxonomy251.getSearchIndexes()
 ⚙️ Configure (placeholders)
 
 Edit the scripts and set:
-```
+
 MONGODB_URI = "<YOUR_ATLAS_SRV>"          # e.g., mongodb+srv://user:pass@cluster.xxxx.mongodb.net
 DB, COLL, INDEX = "NUCC", "taxonomy251", "nucc"
 ```
