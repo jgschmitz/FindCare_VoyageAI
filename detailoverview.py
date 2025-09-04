@@ -4,11 +4,11 @@ from pymongo import MongoClient
 import voyageai, sys, json, traceback
 
 # ----- Atlas connection (paste your working FindCare SRV here) -----
-MONGODB_URI = "mongodb+srv://jschmitz:gcp2025@FindCare.tnhx6.mongodb.net/?retryWrites=true&w=majority"
+MONGODB_URI = ""
 DB, COLL, INDEX = "NUCC", "taxonomy251", "nucc"
 
 # ----- Voyage settings -----
-VOYAGE_API_KEY = "pa-7dduYV1BTZVrUAFXlQqmkAhFk90TWQcL4Cah5I7oh9H"
+VOYAGE_API_KEY = ""
 MODEL, DIM = "voyage-3.5", 1024           # must match stored vectors & index numDimensions
 NUM_CANDIDATES = 2000
 TOP_K = 10
