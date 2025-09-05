@@ -1,7 +1,7 @@
 🧭 FindCare NUCC Semantic Search — README 🚀
 
 MongoDB Atlas Vector Search + Voyage AI for the NUCC taxonomy.
-Fast, relevant specialty lookups with optional filters and slick demos. 🔎⚡️
+Fast, relevant specialty lookups with optional filters and demos. 🔎⚡️
 
 ✅ No secrets in this repo. Replace placeholders like <YOUR_ATLAS_SRV> and <YOUR_VOYAGE_KEY> before running.
 
