@@ -9,8 +9,8 @@ import voyageai
 from itertools import islice
 
 # ---------- Hardcoded config (from your snippets) ----------
-MONGODB_URI    = "mongodb+srv://jschmitz:gcp2025@FindCare.tnhx6.mongodb.net/?retryWrites=true&w=majority"
-VOYAGE_API_KEY = "pa-7dduYV1BTZVrUAFXlQqmkAhFk90TWQcL4Cah5I7oh9H"
+MONGODB_URI    = ""
+VOYAGE_API_KEY = ""
 
 DB, COLL, INDEX = "NUCC", "taxonomy251", "vector_idx"
 MODEL, DIM = "voyage-3.5", 1024
