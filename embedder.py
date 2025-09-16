@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-# clean_and_embed_presales.py
-# Usage:
-#   python clean_and_embed_presales.py
-#
 # What it does:
 #  - Connects to Atlas using your connection string (below)
 #  - Cleans HTML from Definition/Notes fields (TitleCase or camelCase)
@@ -23,8 +19,8 @@ DB_NAME     = "NUCC"
 COLL_NAME   = "taxonomy251"
 
 VOYAGE_API_KEY = ""
-VOYAGE_MODEL   = "voyage-3.5"   # keep this in sync with your index
-EMBED_DIM      = 1024           # keep this in sync with your Atlas Vector Search index
+VOYAGE_MODEL   = "voyage-3-large"   # keep this in sync with your index
+EMBED_DIM      = 2048           # keep this in sync with your Atlas Vector Search index
 BATCH_SIZE     = 128
 
 # ---------- Connect ----------
