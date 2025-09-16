@@ -3,8 +3,8 @@
     {
       "type": "vector",
       "path": "embedding",
-      "numDimensions": 1024,
-      "similarity": "cosine"
+      "numDimensions": 2048,
+      "similarity": "dotProduct"
     }
   ]
 }
