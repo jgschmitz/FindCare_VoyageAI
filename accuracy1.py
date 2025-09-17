@@ -19,7 +19,7 @@ import re
 MONGODB_URI   = ""         
 VOYAGE_API_KEY = ""
 DB, COLL, INDEX = "NUCC", "taxonomy251", "nucc"
-MODEL, DIM = "voyage-3.5", 1024
+MODEL, DIM = "voyage-3-large", 2048
 NUM_CANDIDATES = 2000
 TOP_K = 3
 # ---------------------------------------------------------
