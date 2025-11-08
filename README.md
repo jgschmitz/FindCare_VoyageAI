@@ -21,7 +21,7 @@ FindCare leverages semantic search to provide intelligent healthcare provider sp
 ## 🏗️ Architecture
 
 ```
-User Query → VoyageAI Embedding → MongoDB Atlas Vector Search → Ranked Results
+Query → VoyageAI Embedding → MongoDB Atlas Vector Search → Ranked Results
 ```
 
 - **Data**: NUCC taxonomy (883 provider types)
