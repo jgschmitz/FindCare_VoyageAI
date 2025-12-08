@@ -1,6 +1,7 @@
 # 🏥 FindCare NUCC Semantic Search
 
 **Advanced healthcare provider specialty search powered by MongoDB Atlas Vector Search and VoyageAI**
+This is a Vespa compete 
 
 [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green.svg)](https://www.mongodb.com/atlas)
 [![VoyageAI](https://img.shields.io/badge/VoyageAI-voyage--3.5-blue.svg)](https://www.voyageai.com/)
