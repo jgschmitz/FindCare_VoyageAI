@@ -19,7 +19,7 @@ DB_NAME     = "NUCC"
 COLL_NAME   = "taxonomy251"
 
 VOYAGE_API_KEY = ""
-VOYAGE_MODEL   = "voyage-3-large"   # keep this in sync with your index
+VOYAGE_MODEL   = "voyage-4-large"   # keep this in sync with your index
 EMBED_DIM      = 2048           # keep this in sync with your Atlas Vector Search index
 BATCH_SIZE     = 128
 
