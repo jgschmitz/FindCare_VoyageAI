@@ -3,7 +3,7 @@
     {
       "type": "vector",
       "path": "embedding",
-      "numDimensions": 1024,
+      "numDimensions": 2048,
       "similarity": "cosine"
     },
     {
